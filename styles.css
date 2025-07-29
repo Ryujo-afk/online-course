@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;}
+
+body {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    Z-index: 100;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: #e9e9e9;
+    text-decoration: none;
+}
+.navbar a {
+    font-family: 'Bree Serif', serif;
+    color: #e9e9e9;
+    font-size: 25px;
+    gap: 50px;
+    text-decoration: none; 
+    font-weight: 500;
+    margin-left: 20px;
+
+}
